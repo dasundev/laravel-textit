@@ -11,6 +11,12 @@ namespace Dasundev\LaravelTextit\Support\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
+/**
+ * @method static string sendSMS(string $to, string $message)
+ * @method static float checkBalance()
+ *
+ * @see \Dasundev\LaravelTextit\Textit
+ */
 class Textit extends Facade
 {
     protected static function getFacadeAccessor(): string
