@@ -1,0 +1,47 @@
+{
+    "name": "dasundev/laravel-textit",
+    "description": "Laravel Textit will help you to integrate your sms gateway very easily on your laravel application.",
+    "type": "library",
+    "keywords": [
+        "textit",
+        "sms",
+        "gateway"
+    ],
+    "require": {
+        "laravel/framework": "^6.0|^8.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "php": "^7.2.5|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dasundev\\LaravelTextit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dasundev\\LaravelTextit\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dasundev\\LaravelTextit\\TextitServiceProvider"
+            ],
+            "aliases": {
+                "Textit": "Dasundev\\LaravelTextit\\Support\\Facades\\Textit"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "Dasun Tharanga",
+            "email": "hello@dasun.dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
