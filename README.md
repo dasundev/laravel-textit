@@ -25,7 +25,7 @@ php artisan vendor:publish --provider="Dasundev\LaravelTextit\TextitServiceProvi
 TEXTIT_ACCOUNT_ID=94XXXXXXXXXX
 TEXTIT_ACCOUNT_PASSWORD=password
 ```
-* Optional environment keys. 
+* Optional environment keys(currently not available). 
 
 ```dotenv
 TEXTIT_CUSTOM_SENDER_ID=Textit
