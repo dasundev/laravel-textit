@@ -35,12 +35,12 @@ class Textit
     /**
      * Send a message to the user
      *
-     * @param $to
-     * @param $message
+     * @param string $to
+     * @param string $message
      * @return string
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function sendSMS($to, $message): string
+    public function sendSMS(string $to, string $message): string
     {
         $response = $this->client->get('sendmsg', [
             'query' => [
