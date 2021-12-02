@@ -1,6 +1,8 @@
-# Laravel Textit
-![image](https://user-images.githubusercontent.com/54996800/144489365-187dc640-26e5-4d12-9b2b-d19d73f28818.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54996800/144489365-187dc640-26e5-4d12-9b2b-d19d73f28818.png" alt="Textit Logo" width="400px">
+</center>
 
+# Laravel Textit
 
 Laravel Textit will help you to integrate your sms 
 gateway very easily on your laravel application.
@@ -23,7 +25,7 @@ php artisan vendor:publish --provider="Dasundev\LaravelTextit\TextitServiceProvi
 TEXTIT_ACCOUNT_ID=94XXXXXXXXXX
 TEXTIT_ACCOUNT_PASSWORD=password
 ```
-* Optional environment keys. 
+* Optional environment keys(currently not available). 
 
 ```dotenv
 TEXTIT_CUSTOM_SENDER_ID=Textit
