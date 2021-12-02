@@ -1,28 +1,29 @@
-## Laravel Textit
+# Laravel Textit
+![image](https://user-images.githubusercontent.com/54996800/144489365-187dc640-26e5-4d12-9b2b-d19d73f28818.png)
+
 
 Laravel Textit will help you to integrate your sms 
 gateway very easily on your laravel application.
 
-### Installation
+## Installation
 
-You can install this package via composer:
+1. You can install this package via composer:
 ```bash
 composer require dasundev/laravel-textit
 ```
-You can publish the config file with:
+2. You can publish the config file with:
 ```bash
 php artisan vendor:publish --provider="Dasundev\LaravelTextit\TextitServiceProvider" --tag="config"
 ```
-### ENV Keys
+## ENV Keys
 
-Add following environment keys to your .env file. then 
-replace with your Account ID & Password. 
+* Add following environment keys to your .env file. then replace with your Account ID & Password. 
 
 ```dotenv
 TEXTIT_ACCOUNT_ID=94XXXXXXXXXX
 TEXTIT_ACCOUNT_PASSWORD=password
 ```
-Optional environment keys. 
+* Optional environment keys. 
 
 ```dotenv
 TEXTIT_CUSTOM_SENDER_ID=Textit
@@ -31,13 +32,13 @@ TEXTIT_REPLY_NUMBER=07XXXXXXXX
 TEXTIT_REPLY_URL=https://your-domain.com/textit/replies
 ```
 
-### Usage
+## Usage
 
-1. Send message to a user.
+* Send message to a user.
 ```php
 Textit::sendSMS('07XXXXXXXX', 'Your order has been delivered!');
 ```
-2. Check your textit account balance.
+* Check your textit account balance.
 ```php
 $balance = Textit::checkBalance();
 ```
