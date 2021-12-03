@@ -7,7 +7,7 @@
 Laravel Textit will help you to integrate the Textit SMS 
 gateway very easily on your laravel application.
 
-This package has been developed for [http://textit.biz](http://textit.biz/)
+This package has been developed for [https://textit.biz](https://textit.biz/)
 
 Therefore, you must have an active textit account with sufficient balance to send SMS.
 
