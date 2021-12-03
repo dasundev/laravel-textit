@@ -26,7 +26,7 @@ php artisan vendor:publish --provider="Dasundev\LaravelTextit\TextitServiceProvi
 * Add following environment keys to your .env file. then replace with your Account ID & Password. 
 
 ```dotenv
-TEXTIT_ACCOUNT_ID=9477123456
+TEXTIT_ACCOUNT_ID=94XXXXXXXXX
 TEXTIT_ACCOUNT_PASSWORD=1234
 ```
 * Optional environment keys(currently not available). 
@@ -34,7 +34,7 @@ TEXTIT_ACCOUNT_PASSWORD=1234
 ```dotenv
 TEXTIT_CUSTOM_SENDER_ID=Textit
 TEXTIT_ECO=Y
-TEXTIT_REPLY_NUMBER=0771234567
+TEXTIT_REPLY_NUMBER=07XXXXXXXX
 TEXTIT_REPLY_URL=https://your-domain.com/textit/replies
 ```
 
