@@ -1,6 +1,6 @@
 {
     "name": "dasundev/laravel-textit",
-    "description": "Laravel Textit will help you to integrate your sms gateway very easily on your laravel application.",
+    "description": "Official laravel package for Textit SMS Gateway in Sri Lanka",
     "type": "library",
     "keywords": [
         "textit",
