@@ -73,7 +73,7 @@ return [
     | Reply URL
     |--------------------------------------------------------------------------
     |
-    | Replies will be posted to given the url
+    | Replies will be posted to the given url
     |
     |
     */
