@@ -1,6 +1,6 @@
 {
     "name": "dasundev/laravel-textit",
-    "description": "Official laravel package for Textit SMS Gateway in Sri Lanka",
+    "description": "Laravel package for Textit SMS Gateway in Sri Lanka",
     "type": "library",
     "keywords": [
         "textit",
