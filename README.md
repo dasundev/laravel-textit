@@ -4,7 +4,7 @@
 
 # Laravel Textit
 
-Laravel Textit will help you to integrate your sms 
+Laravel Textit will help you to integrate your SMS 
 gateway very easily on your laravel application.
 
 ## Installation
