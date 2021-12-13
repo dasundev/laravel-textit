@@ -2,6 +2,12 @@
   <img src="https://user-images.githubusercontent.com/54996800/144489365-187dc640-26e5-4d12-9b2b-d19d73f28818.png" alt="Textit Logo" width="400px">
 </p>
 
+
+<p align="center">
+<a href="https://packagist.org/packages/dasundev/laravel-textit"><img src="https://img.shields.io/packagist/l/dasundev/laravel-textit" alt="License"></a>
+<a href="https://packagist.org/packages/dasundev/laravel-textit"><img src="https://img.shields.io/packagist/dt/dasundev/laravel-textit" alt="Total Downloads"></a>
+</p>
+
 # Laravel Textit
 
 Laravel Textit will help you to integrate the Textit SMS 
