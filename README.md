@@ -42,11 +42,13 @@ TEXTIT_REPLY_URL=https://your-domain.com/textit/replies
 
 * Send message to a user.
 ```php
-Textit::sendSMS('07XXXXXXXX', 'Your order has been delivered!');
+Textit::sms('07XXXXXXXX', 'Your order has been delivered!'); // using facade
+textit()->sms('07XXXXXXXX', 'Your order has been delivered!'); // using helper function
 ```
 * Check your textit account balance.
 ```php
-$balance = Textit::checkBalance();
+$balance = Textit::balance(); // using facade
+textit()->balance(); // using helper function
 ```
 ### License
 

@@ -18,6 +18,9 @@
     },
     "license": "MIT",
     "autoload": {
+        "files": [
+            "src/helper.php"
+        ],
         "psr-4": {
             "Dasundev\\LaravelTextit\\": "src/"
         }
