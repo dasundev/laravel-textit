@@ -54,7 +54,7 @@ textit()->sms('07XXXXXXXX', 'Your order has been delivered!'); // using helper f
 * Check your textit account balance.
 ```php
 $balance = Textit::balance(); // using facade
-textit()->balance(); // using helper function
+$balance = textit()->balance(); // using helper function
 ```
 ### License
 
