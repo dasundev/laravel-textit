@@ -12,8 +12,8 @@ namespace Dasundev\LaravelTextit\Support\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static string sendSMS(string $to, string $message)
- * @method static float checkBalance()
+ * @method static string sms(string $to, string $message)
+ * @method static float balance()
  *
  * @see \Dasundev\LaravelTextit\Textit
  */

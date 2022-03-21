@@ -40,7 +40,7 @@ class Textit
      * @return string
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function sendSMS(string $to, string $message): string
+    public function sms(string $to, string $message): string
     {
         $response = $this->client->get('sendmsg', [
             'query' => [
@@ -66,7 +66,7 @@ class Textit
      * @return float
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function checkBalance(): float
+    public function balance(): float
     {
         $response = $this->client->get('creditchk', [
             'query' => [
