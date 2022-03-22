@@ -16,19 +16,36 @@ use Tests\TestCase;
 class TextitTest extends TestCase
 {
 
-    public function testSendMessage()
+    public function testSendMessageUsingFacade()
     {
         $to = "07XXXXXXXX"; //replace with your mobile no
         $text = "Hello! This is a test message from Laravel Textit";
 
-        $result = Textit::sendSMS($to, $text);
+        $result = Textit::sms($to, $text);
 
         $this->assertIsString($result);
     }
 
-    public function testAccountBalance()
+    public function testAccountBalanceUsingFacade()
     {
-        $result = Textit::checkBalance();
+        $result = Textit::balance();
+
+        $this->assertIsFloat($result);
+    }
+
+    public function testSendMessageUsingHelper()
+    {
+        $to = "07XXXXXXXX"; //replace with your mobile no
+        $text = "Hello! This is a test message from Laravel Textit";
+
+        $result = textit()->sms($to, $text);
+
+        $this->assertIsString($result);
+    }
+
+    public function testAccountBalanceUsingHelper()
+    {
+        $result = textit()->balance();
 
         $this->assertIsFloat($result);
     }
