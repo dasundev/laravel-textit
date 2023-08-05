@@ -9,7 +9,7 @@
     ],
     "homepage": "https://github.com/dasundev/laravel-textit",
     "require": {
-        "laravel/framework": ">=6.0 <10.0",
+        "laravel/framework": "*",
         "guzzlehttp/guzzle": "^7.4",
         "php": "^7.2.5|^8.0"
     },
